@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <!-- .................................navbar........................ -->
+    <nav id="desktop-nav">
+        <div><button id="join" class="logo">Join Now</button></div>
+        <div class="navelements" id="nav1">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- ............................................hamburger nav..................... -->
+    <nav class="hamburger-nav">
+        <div><button class="logo">Join Now</button></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ...................speech....................................... -->
+    <div class="container">
+        <div class="speech">
+            <p>Welcome</p>
+            <span id="hs" style="color: #F4876B;">Hackerspace</span>
+        </div>
+        <div class="second">
+            <p>To</p>
+            <span id="gr" style="color: #F4876B;">Grow</span>
+            <p>Your</p>
+            <span id="cr" style="color: #F4876B;">Career</span>
+        </div>
+        <div class="third">
+            <p id="p4">Path</p>
+        </div>
+    </div>
+    <!-- ..........................container second......................... -->
+    <div class="second-container">
+        <div class="text-2">
+            <p id="txt">Learn UI-UX Design skills with weekend UX. The latest online <br>
+                learning system and material that help your knowledge growing.
+            </p>
+            <div class="button-2">
+                <button id="bt1" class="about">About Us </button>
+                <button id="bt2" class="contact">Contact Us </button>
+            </div>
+        </div>
+        <div class="note">
+            <p id="p5">Dive into the realm where lines of code weave <br>
+                dreams into reality and innovation knows no <br>
+                bounds. Welcome to Hackerspace, your <br>
+                launchpad to explore, create, and collaborate <br>
+                in the world of coding like never before.</p>
+
+        </div>
+
+    </div>
+    <!-- ...........................container third...................... -->
+    <div class="third-part">
+        <div class="points">
+
+            <div class="image1">
+                <img src="./Speak.png" alt="speak png">
+                <span id="ps">Public Speaking</span>
+            </div>
+            <div class="image2">
+                <img src="./Briefcase.png" alt="speak png">
+                <span id="co">Career-oriented</span>
+            </div>
+            <div class="image3">
+                <img src="./idea.png" alt="speak png">
+                <span id="ct">Creative thinking</span>
+            </div>
+        </div>
+
+        <input id="sch" class="searchbar" type="search" placeholder="Search..">
+
+    </div>
+
+    <!-- .................................fourth part................................. -->
+    <div class="fourth-part">
+        <div class="line1">
+            <span style="color:#F4876B; font-weight:bold;"> 250+</span>
+            <p style="font-size: 20px;">Collaboration</p>
+        </div>
+        <div class="line2">
+            <span class="bgcolor" style="color:#F4876B; font-weight:bold;">Change Background Color</span>
+            <div class="color-btn">
+                <button onclick="colorwhite()" class="white"></button>
+                <button onclick="colorpurple()" class="purple"></button>
+                <button onclick="colorblue()" class="blue"></button>
+                <button onclick="colorred()" class="red"></button>
+            </div>
+        </div>
+    </div>
+    <!-- ...................................bottompart............................... -->
+    <div class="bottom-container">
+        <div class="bottom-left">
+            <div class="firstblock">
+                <img src="./bottomimage.png" alt="image">
+                <img class="modify1" src="./bottomimage.png" alt="image">
+            </div>
+
+            <div class="secondblock">
+                <img class="modify2" src="./bottomimage.png" alt="image">
+                <img src="./bottomimage.png" alt="image">
+            </div>
+        </div>
+        <div class="web">
+            <div class="ellipse">
+                <img src="./circle.svg" alt="">
+            </div>
+            <img class="html" src="./Html 5.png" alt="">
+            <img class="ts" src="./Typescript.png" alt="">
+            <img class="css" src="./Css 3.png" alt="">
+            <img class="atom" src="./Atom.png" alt="">
+            <img class="js" src="./Js.png" alt="">
+
+                    
+        </div>
+    </div>
+    <footer id="felm">
+        © 2024 Alright Reserved
+    </footer>
+
+
+    
+</body>
+
+</html>

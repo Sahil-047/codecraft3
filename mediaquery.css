@@ -1,0 +1,13 @@
+@media only screen and(max-width: 960px) {
+
+    #desktop-nav {
+        justify-content: space-between;
+
+        /* padding: 10px 80px; */
+    }
+
+    .bottom-container {
+        display: block !important;
+        padding-top:20px ;
+    }
+}
